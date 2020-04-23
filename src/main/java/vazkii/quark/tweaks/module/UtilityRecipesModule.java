@@ -63,9 +63,13 @@ public class UtilityRecipesModule extends Module {
         if (compostableToxins) {
             ComposterBlock.CHANCES.put(Items.POISONOUS_POTATO, 0.85F);
             ComposterBlock.CHANCES.put(Items.ROTTEN_FLESH, 0.3F);
+            ComposterBlock.CHANCES.put(Items.BAMBOO, 0.3F);
+            ComposterBlock.CHANCES.put(Items.DEAD_BUSH, 0.65F);
         } else {
             ComposterBlock.CHANCES.removeFloat(Items.POISONOUS_POTATO);
             ComposterBlock.CHANCES.removeFloat(Items.ROTTEN_FLESH);
+            ComposterBlock.CHANCES.removeFloat(Items.BAMBOO);
+            ComposterBlock.CHANCES.removeFloat(Items.DEAD_BUSH);
         }
     }
 
