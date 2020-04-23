@@ -20,7 +20,9 @@ public class MorePottedPlantsModule extends Module {
 		add(Blocks.CHORUS_FLOWER, "chorus");
 		add(Blocks.COCOA, "cocoa_bean");
 		add(Blocks.GRASS, "grass");
-		add(Blocks.MELON_STEM, "melon");
+		add(Blocks.PEONY, "peony");
+		add(Blocks.LILAC, "lilac");
+		add(Blocks.NETHER_WART, "nether_wart");
 		add(Blocks.PEONY, "peony");
 		add(Blocks.POTATOES, "potato");
 		add(Blocks.PUMPKIN_STEM, "pumpkin");
